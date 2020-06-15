@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head> 
+<meta charset="utf-8" />
+<title>Krusty Krab</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+    
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<style> 
+ 
+h1:hover, a:hover {
+ opacity: 25%
+}
+  
+html, body { 
+scroll-behavior: smooth; 
+}
+    
+body {
+margin: 0;
+}
+    
+.header {
+background-color: #8F76AE;
+opacity: 80%; 
+color: white;
+height: 50px;
+}
+    
+.banner img {
+max-width: 2000px;
+width: 100%;
+}
+  
+.links {
+font-size: 1rem;
+text-align: center;
+font-family: 'Balsamiq Sans', cursive;  
+text-decoration: none; 
+margin-top: 12px; 
+}
+    
+.links a {
+color: white;
+padding-top: 20px; 
+padding-left: 10px;
+padding-right: 5px;
+text-decoration: none;
+font-size: 1.25rem;
+    } 
+
+.nav {
+display: grid;
+margin-left: auto;
+margin-right: auto;
+max-width: 950px;
+}
+    
+.container {
+position: relative;
+text-align: center;
+}  
+    
+.order img {
+max-width: 2000px;
+width: 100%;
+}
+
+@media (min-width: 1200px) {
+.order button { 
+max-width: 27px; 
+max-height: 70px; 
+background-color: #8F76AE;
+opacity: 80%; 
+font-family: 'Balsamiq Sans', cursive;
+color: white; 
+font-size: 1.5rem;
+border: 0px; 
+position: absolute;
+top: 166%;
+left: 17%;
+transform: translate(-50%, -50%);
+width: 100%; 
+} }
+
+@media (min-width: 992px) {
+.order button { 
+top: 166%;
+
+    
+.ubereats {
+max-width: 300px; 
+max-height: 100px;  
+position: absolute;
+top: 165%;
+left: 40%;
+transform: translate(-50%, -50%);
+width: 100%; 
+}
+    
+.container {
+position: relative;
+text-align: center;
+color: white;
+}     
+    
+.Menu img {
+max-width: 2000px;
+width: 100%;
+}
+    
+@use postcss-nested;
+
+* {
+box-sizing: border-box;
+}
+
+.menu {
+display: flex;
+list-style-type: none;
+flex-wrap: wrap;
+padding: 0;
+margin: 0 auto;
+max-width: 960px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+}
+    
+.menu-item {
+display: flex;
+width: 50%;
+list-style-type: none;
+padding: 0 1rem;
+margin: 0 0 1rem;
+font-family: 'Balsamiq Sans', cursive;
+width: 100%; 
+}
+    
+section {
+display: flex;
+flex-direction: column;
+flex: 1;
+width: 100%;
+}
+      
+header {
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+        
+.spacer {
+content: '';
+width: 100%;
+height: 1px;
+margin: 0 .5rem;
+border-bottom: 1px dashed black;
+flex: 1;
+}
+  
+h1 {
+margin: 0;
+font-size: 1.25rem;
+}
+   
+.column2 {
+max-width: 1920px;
+max-height: 1080px;
+width: 100%; 
+display: block;  
+}
+    
+* {
+box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+font-family: 'Balsamiq Sans', cursive;  
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+#container {
+border-radius: 5px;
+padding: 10px;
+color: white;
+font-family: 'Balsamiq Sans', cursive; 
+position: absolute;
+top: 400%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+}
+
+.column {
+float: left;
+width: 50%;
+padding: 20px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+width: 100%;
+margin-top: 0;
+} }
+    
+.footer {
+width: 100%; 
+padding: 15px 0px;
+padding-bottom: 1px;
+background-color: #8F76AE;
+opacity: 80%; 
+color: white;
+}
+  
+.footer a {
+color: white;
+margin-left: 35px; 
+padding-right: 10px;
+text-decoration: none; 
+font-family: 'Balsamiq Sans', cursive;  
+} 
+    
+.social-icons {
+text-align: right;
+}  
+    
+.social-icons li {
+display:inline-block;
+list-style-type:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+}
+    
+.social-icons li a {
+border-bottom: none;
+}
+    
+.social-icons li img {
+max-width:35px;
+height:35px;
+margin-right: 20px; 
+width: 100%; 
+}
+    
+</style>
+    
+</head>
+    
+<body>
+
+<div class="header">      
+<div class="nav"> 
+<div class="links">  
+<a href="#banner img">Home</a>
+<a href="#order img">Order</a>
+<a href="#Menu img">Menu</a>
+<a href="#">Get in Touch</a>   
+</div>  
+</div>
+</div> 
+
+<div class="banner img">
+<img src="img/bannerimg.png" />
+</div> 
+    
+<div class= "container2">
+<div class= "order img">
+<img src="img/Orderbanner.png" />
+<a href="https://www.ubereats.com/nz" target="_blank"><button class="order button">Order Now</button></a>
+<div class= "ubereats"/> 
+<img src="img/UberEatsLogo.png"/> 
+</div>   
+</div>
+    
+<div class="container"> 
+<div class= "Menu img">
+<img src="img/menubanner.png" />
+<div class="menu">
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Krabby Patty</h1>
+<span class="spacer"></span>
+<span class="price">$1.25</span>
+</header>
+</section>
+</li>
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>W/Sea Cheese</h1>
+<span class="spacer"></span>
+<span class="price">$1.50</span>
+</header>
+</section>
+</li>
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Double Krabby Patty</h1>
+<span class="spacer"></span>
+<span class="price">$2.00</span>
+</header>
+</section>
+</li>
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>W/Sea Cheese</h1>
+<span class="spacer"></span>
+<span class="price">$2.25</span>
+</header>
+</section>
+</li> 
+    
+<li class="menu-item">
+<section>
+<header>
+<h1> Tripple Krabby Patty</h1>
+<span class="spacer"></span>
+<span class="price">$3.00</span>
+</header>
+</section>
+</li>
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>W/Sea Cheese</h1>
+<span class="spacer"></span>
+<span class="price">$3.25</span>
+</header>
+</section>
+</li>
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Krabby Meal</h1>
+<span class="spacer"></span>
+<span class="price">$3.50</span>
+</header>
+</section>
+</li>   
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Salty Sea Dog</h1>
+<span class="spacer"></span>
+<span class="price">$1.25</span>
+</header>
+</section>
+</li>  
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Salty Sea Dog - FootLong</h1>
+<span class="spacer"></span>
+<span class="price">$2.00</span>
+</header>
+</section>
+</li> 
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Sailors Surprise</h1>
+<span class="spacer"></span>
+<span class="price">$3.00</span>
+</header>
+</section>
+</li> 
+
+<li class="menu-item">
+<section>
+<header>
+<h1>Kelp Shake</h1>
+<span class="spacer"></span>
+<span class="price">$2.50</span>
+</header>
+</section>
+</li> 
+    
+<li class="menu-item">
+<section>
+<header>
+<h1>Seafood Soda</h1>
+<span class="spacer"></span>
+<span class="price">$1.50</span>
+</header>
+</section>
+</li> 
+    
+</div> 
+</div>
+</div>
+     
+<div class= "container4">
+<div class="banner img">
+<img src="img/get_in_touch.png" />
+<div id="container">
+<div class="row">
+<div class="column">
+<img src="img/krustyKrab.png" style="width:100%">
+</div>
+<div class="column">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="country">Country</label>
+<select id="country" name="country">
+<option value="Bikini Bottom">Bikini Bottom</option>
+<option value="Rock Bottom">Rock Bottom</option>
+<option value="Bottoms Up">Bottoms Up</option>
+<option value="atlantis">Atlantis</option>
+<option value="shell city">Shell City</option>
+</select>
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+<input type="submit" value="Submit">
+</div>
+</div>
+</div>
+</div>  
+</div>
+    
+<footer class="footer">
+<div class="footer a">  
+<a style="position: relative; top: 25px;" href="#banner img">Home</a>
+<a style="position: relative; top: 25px;" href="order img">Order</a>
+<a style="position: relative; top: 25px;" href="#Menu img">Menu</a>
+<a style="position: relative; top: 25px;" href="#">Get in Touch</a>
+    
+<ul class=social-icons>
+<li><a style="position: relative; bottom: 25px;" href="http://www.facebook.com"><img src='img/facebook.png'/></a></li>
+<li><a style="position: relative; bottom: 25px;" href="http://www.twitter.com"><img src='img/twitter.png'/></a></li>
+<li><a style="position: relative; bottom: 25px;" href="http://www.pinterest.com"><img src='img/pinterest.png'/></a></li>
+<li><a style="position: relative; bottom: 25px;" href="http://www.instagram.com"><img src='img/instagram.png'/></a></li>
+</ul>
+</div> 
+</footer> 
+
+    
+</body>
+</html>
